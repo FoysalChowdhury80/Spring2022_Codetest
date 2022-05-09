@@ -12,12 +12,6 @@ import java.util.Arrays;
 import java.util.List;
 
 public class SolutionFinal {
-    /**
-     * Ques-2:
-     * Verify feelsLike-temp value is in between the low-temp value and high-temp value
-     * Web: https://www.darksky.net/
-     * points: 20
-     */
 
     /**
      * Testcase 1: Verify the feels-like temp value is between low and high temp values at any zipcode
@@ -106,9 +100,9 @@ public class SolutionFinal {
         System.out.println("\n***Solution3***");
         System.out.println("Common Strings of the both arrays are following");
         List<String> commonStrings = new ArrayList<>();
-        for (int i = 0; i<arr1.length; i++){
-            for (int j = 0; j<arr2.length; j++){
-                if (arr2[j].equalsIgnoreCase(arr1[i])){
+        for (String s : arr1) {
+            for (int j = 0; j < arr2.length; j++) {
+                if (arr2[j].equalsIgnoreCase(s)) {
                     commonStrings.add(arr2[j]);
 
 

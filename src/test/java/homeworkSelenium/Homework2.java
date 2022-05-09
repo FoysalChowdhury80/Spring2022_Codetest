@@ -8,24 +8,11 @@ import webDriver.Web;
 
 public class Homework2 {
 
-    /**
-     * Testcase-1:
-     *
-     *
-     * Verify "Keep me signed in" is NOT selected for messenger login page
-     *
-     * Click "Log in" button
-     *
-     * Verify "Incorrect email or phone number" is displayed
-     *
-     * Verify "Continue" button is enabled
-     *
-     *
-     */
+
 
     /**
      * Steps:
-     * 1. Launch https://www.facebook.com/
+     * 1. Launch <a href="https://www.facebook.com/">https://www.facebook.com/</a>
      * 2. Click messenger link
      * 3. Verify 'keep me signed in' checkbox is not selected
      */
