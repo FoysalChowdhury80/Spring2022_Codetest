@@ -6,6 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+
+        <module name="Spring2022_Codetest" />
+      </profile>
+    </annotationProcessing>
+
         <module name="org.selenium.com" />
       </profile>
     </annotationProcessing>
@@ -13,5 +18,6 @@
       <module name="org.selenium.com" target="1.8" />
       <module name="Spring2022_Codetest" target="1.8" />
     </bytecodeTargetLevel>
+
   </component>
 </project>
